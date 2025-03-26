@@ -20,11 +20,11 @@ serialRunCall.m -> runLLS.m -> runAnEgLLS.m -> setupForIntvalAlgo.m -> ibb.m, bb
 
 "test_files" directory
 contains m-files to test the three algorithms  
-p28pairBox7a2c3dOne24Ex20t2kOd2Tm_V9.m to test example 1 in OD case
-p28pairBox7a2c3dOne24Ex20t2kUd2Tm_V9.m to test example 1 in UD case
-p28pairBox7a2c3dTwo24Ex20t2kOd2Tm_V9.m to test example 2 in OD case
-p28pairBox7a2c3dTwo24Ex20t2kUd2Tm_V9.m to test example 2 in UD case
-p28pairBox7a2c3dRan24Ex20t2kOd2Tm_V9.m to test example 3 in OD case
-p28pairBox7a2c3dRan24Ex20t2kUd2Tm_V9.m to test example 3 in UD case
+Eg1Od.m to test example 1 in OD case\
+Eg1Ud.m to test example 1 in UD case\
+Eg2Od.m to test example 2 in OD case\
+Eg2Ud.m to test example 2 in UD case\
+Eg3Od.m to test example 3 in OD case\
+Eg3Ud.m to test example 3 in UD case
 
                                                                         
