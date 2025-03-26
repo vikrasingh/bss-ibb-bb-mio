@@ -3,8 +3,8 @@ This package provides the testing and algorithm files to solve the following **B
 ```math
 \min_{ \beta \in R^p} \|y-X \beta \|_{2}^{2}  \text{ subject to } \|\beta\|_{0}\leq k \text{ , } l\leq \beta \leq u
 ``` 
-where $l$, $u$, $\beta \in R^p$, $y \in R^n$, $X \in R^{n \times p}$, $\| \cdot \|_{2}$ is $l_{2}$ norm, $\|\cdot\|_{0}$ is pseudo-norm which counts the no. of non-zero entries of $\beta$.\
-Three algorithms have been implemented to solve the (BSS) problem: IBB, BB, and MIO
+where $l$, $u$, $\beta \in R^p$, $y \in R^n$, $X \in R^{n \times p}$, $`\| \cdot \|_{2}`$ is $`l_{2}`$ norm, $`\|\cdot\|_{0}`$ is a pseudo-norm which counts the no. of non-zero entries of $`\beta`$.\
+Three algorithms have been implemented to solve the (BSS) problem: IBB, BB, and MIO.
 
 "main" directory
 contains the m-files ibb.m, bb.m, mio.m for the three algorithms.
@@ -14,7 +14,7 @@ contains the m-files to find the OLS solutions in the original or the reduced sp
 minimization, and the method of conjugate gradient for unboxed quadratic minimization.
 
 "topmost" directory
-contains the wrapper m-files to generate the example data, call each algorithm, and save the output in a spreadsheet, as well as in matlab data files
+contains the wrapper m-files to generate the example data, call each algorithm, and save the output in a spreadsheet, as well as in MATLAB data files
 with the following dependencies
 serialRunCall.m -> runLLS.m -> runAnEgLLS.m -> setupForIntvalAlgo.m -> ibb.m, bb.m, mio.m
 
